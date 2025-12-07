@@ -5,7 +5,7 @@ project(advent_2025)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-foreach(i RANGE 1 2)
+foreach(i RANGE 1 3)
     add_executable(advent_${i} src/advent_${i}.cpp src/advent_${i}.hpp)
 endforeach()
 
